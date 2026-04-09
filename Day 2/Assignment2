@@ -1,0 +1,56 @@
+#1.What are data types in Python? List any 4 with examples.
+
+->Data type in python define the type of data which we store in variables.
+examples:-
+1.int-  whole numbers including pos and neg values
+  ex-1,2,6,-5,0,98
+2.float- numbers with decimal point
+  ex-0.3,1.5,7.9
+3.str- sequence of characters
+  ex-'Apple', 'java' ,"Akanksha"
+4.bool- true or false
+  ex-True , false
+
+
+#2.What is the difference between implicit and explicit type conversion? Give one example of each.
+
+->implicit conversion- It converts automatically smaller data types into larger ones to prevent
+         data loss.
+         ex- x=4
+             y=6.5
+             z=x+y //convert int into float
+             print(z)//output->10.5
+
+   explicit conversion- It convert data type manually using built in function 
+                     like int(),float(),bool(),str()
+            ex- x="20"
+                y=int(x) // convert str int int
+                print(y+2)//output-> 22
+
+
+
+
+#3.What are operators in Python? Explain any three types with examples.
+
+->operators are used to perform operation on variables and values.
+
+types-
+1.Arithmetic operator- + - / * %
+ex-a=5
+   b=3
+   c=a-b
+   print(c)//2
+
+2.Comparison operator- == != > < >= <=
+ex-a=25
+   b=16
+   if(a>b):
+    print(a)
+   else:
+     print(b)//25
+
+3.Logical operator- and or not
+ex- a=9
+    b=4
+    if(a>b and b<a):
+      print(True)//True
