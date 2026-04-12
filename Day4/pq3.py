@@ -5,6 +5,15 @@
 
 
 
-fruits=("mango","apple","banana","watermelon","grapes")
-print(len(fruits))
-print("Index of Banana:",fruits.index("banana"))
+# fruits=("mango","apple","banana","watermelon","grapes")
+# print(len(fruits))
+# print("Index of Banana:",fruits.index("banana"))
+
+num={
+    "one":1,
+    "two":2,
+    "three":3,
+    "one":7
+    }
+
+print(num)
