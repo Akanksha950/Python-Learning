@@ -1,0 +1,21 @@
+4.Why are functions used in programming? Write two advantages.
+
+-> Functions are used in programming to organize code into reusable, logical blocks that perform a specific task. They help make programs more structured, readable, and efficient.
+
+ Two key advantages:
+
+ 1. Code Reusability
+ A function can be written once and used multiple times in different parts of the program, 
+ avoiding repetition and saving development time.
+
+ 2. Improved Readability & Maintainability
+ Functions break complex programs into smaller, understandable parts, making the code easier to read, debug, and modify later.
+
+3.Explain what happens if you call a function before defining it.
+
+->Calling a function before defining it usually causes an error.
+
+3.Explain the difference between local and global scope in your own words.
+
+-> local variable - defined inside function accessible only inside the function
+   global variable - defined outside the function accessible everywhere(inside and outside the function)
