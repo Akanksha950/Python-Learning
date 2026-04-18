@@ -1,0 +1,5 @@
+This is a sample text file.
+It is used to demonstrate file handling in Python.
+We can read and write data using file operations.
+Each line represents a string in the file.
+This file is useful for practice purposes.
